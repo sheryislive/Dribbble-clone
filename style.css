@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy-Medium.otf);
+}
+@font-face {
+    font-family: "Source Serif 4";
+    src: url(./source\ serrif\ 4.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +14,11 @@
 }
 
 html, body {
-    height: 100%;
+    height: 103%;
     width: 100%;
 }
 #page1{
-    height: 100%;
+    height: 102%;
     width: 100%;
     /* background-color: rgb(247, 240, 192); */
 }
@@ -62,7 +70,7 @@ html, body {
 
 
 #content{
-    height: calc(100% - 120px);
+    height: calc(100% - 100px);
     width: 100%;
     /* background-color: rgb(230, 198, 204); */
     padding-top: 90px;
@@ -83,7 +91,7 @@ html, body {
 #content h1{
     font-size: 80px;
     text-align: center;
-    margin: 25px 0;
+    margin: 40px 0;
     font-family: "Source Serif 4";
     font-weight: 100;
     line-height: 80px;
@@ -102,10 +110,11 @@ html, body {
     color: #fff;
     border-radius: 50px;
     font-size: 18px;
-    margin: 30px 0px;
+    margin: 50px 0px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 70px;
 }
 #bottom{
     height: 380px;
